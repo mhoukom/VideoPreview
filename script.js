@@ -1,11 +1,12 @@
 console.log("page loaded...");
 
-var x = document.getElementById("video1");
+// var x = document.getElementById("video1");
 
-function playVid() {
-    x.play();
+function playVid(video1) {
+    video1.play();
 }
 
-function pauseVid() {
-    x.pause();
+function pauseVid(video1) {
+    video1.pause();
+    video1.currentTime = 0
 }
